@@ -1,0 +1,38 @@
+
+
+header{
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  block-area: header;
+}
+body{
+  display:grid;
+  grid-template-columns:200% 600% 200%;
+    grid-template-rows: 100% 100% 100%;
+  grid-template-columns:auto;
+                     }
+
+nav{
+  background-color: yellow;
+padding: 20px;
+grid-area: nav;
+}
+main{
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+grid-area: main;
+}
+aside{
+  background-color: lightgreen;
+  padding:20px;
+  color: black;
+  grid-area: aside;
+
+}
+footer{
+  background-color: darkgreen;
+  color: white;
+grid-area: footer;
+}
